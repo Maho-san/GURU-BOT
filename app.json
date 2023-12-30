@@ -35,7 +35,7 @@
      "HAPP": {
       "description": "Put the Heroku app name, same as above entered",
       "required": true,
-      "value": "GuruMD1"
+      "value": "gurumd1"
     },
     "statusview": {
       "description": "make it true if you want bot to view status",

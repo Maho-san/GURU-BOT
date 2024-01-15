@@ -1,10 +1,10 @@
 {
-  "name": "whatsapp-bot (GURU-BOT)",
+  "name": "MƧ BӨƬ",
   "description": " Whatsapp bot.",
   "keywords": [
     "whatsapp bot"
   ],
-  "repository": "https://github.com/Guru322/GURU-BOT",
+  "repository": "https://github.com/Maho-san/GURU-BOT",
   "stack": "container",
   "env": {
     "DATABASE_URL": {
@@ -15,17 +15,17 @@
     "SESSION_ID": {
       "description": "your session id",
       "required": true,
-      "value": "Guru_140ccc76-1e5d-4782-b6c1-402c85e81786"
+      "value": "Guru_11c5c5be-27f2-488d-b7b4-888d27113165"
     },
     "MODE": {
       "description": "mode public or private",
       "required": true,
-      "value": "public"
+      "value": "private"
     },
     "PREFIX": {
       "description": "put any one symbol here except @ and + , leave it Blank if you want to use multiple prefix",
       "required": false,
-      "value": ","
+      "value": "_"
     },
      "HKEY": {
       "description": "Put your Heroku api key Here , Get one from here https://dashboard.heroku.com/account",
@@ -35,7 +35,7 @@
      "HAPP": {
       "description": "Put the Heroku app name, same as above entered",
       "required": true,
-      "value": "gurumd1"
+      "value": "msbot1"
     },
     "statusview": {
       "description": "make it true if you want bot to view status",
